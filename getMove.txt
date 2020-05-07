@@ -1,0 +1,7 @@
+board			move type		row		column		expected output		actual output
+10x10 unrevealed	blah			-		-		Re-prompt		Re-prompt
+5x20 unrevealed		f			c		e		4,6,'flag'		4,6,'flag'
+25x8 unrevealed		mark			99		-		Re-prompt		Re-prompt
+10x10 unrevealed	flag			c		z		Re-prompt		Re-prompt
+5x20 unrevealed		reveal			a		cancel		Re-prompt		Re-prompt
+25x8 revealed		r			b		g		Re-prompt		Re-prompt		

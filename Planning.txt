@@ -1,0 +1,17 @@
+Minesweeper
+
+Components
+
+Ask user for difficulty
+Ask user for board size
+Generate minesweeper board based on specifications
+Add letters on each side to signify rows and columns
+Add numbers to board based on adjacent bombs
+Display the board
+Ask user to input row and column to turn over
+Turn over given position
+Check if user has won
+Check if user has lost
+Reveal board
+Ask to play again
+

@@ -1,0 +1,8 @@
+size		rows/columns			expected output			actual output
+'small'		N/A				10, 10				10, 10
+'MEDIUM'	N/A				15, 15				15, 15
+'largE'		N/A				20, 20				20, 20
+'blah'		N/A				Re-prompt			Re-prompt
+'custom'	7, 22				7, 22				7, 22
+'custom'	0, 11				Re-prompt rows			Re-prompt rows
+'custom'	18, -4.5			Re-prompt columsn		Re-prompt columns

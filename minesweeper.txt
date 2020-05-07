@@ -1,0 +1,22 @@
+input			expected output			actual output
+size: 1234		Re-prompt			Re-prompt
+size: custom		Prompt for dimensions		Prompt for dimensions
+dimensions: 2x70	Re-prompt			Re-prompt
+dimensions: 8x11	Ask for difficulty		Ask for difficulty
+size: small		Ask for difficulty		Ask for difficulty
+difficulty: blah	Re-prompt			Re-prompt
+difficulty: easy	Start game			Start game
+First-tile bomb		Lost game			Lost game
+Flag tile		Replaced with F			Replaced with F
+Unflag tile		Remove F			Remove F
+Reveal tile		Replace with value on board	Replace with value on board
+Tile outside bounds	Re-prompt			Re-prompt
+Tile row: 999		Re-prompt			Re-prompt
+Tile column: bbd	Re-prompt			Re-prompt
+Cancel move		Re-prompt			Re-prompt
+Tile already uncovered	Re-prompt			Re-prompt
+Tile already flagged	Re-prompt			Re-prompt
+Uncover all non-bombs	Won game			Won game
+Replay game: yes	Start game again		Start game again
+Replay game: no		End game			End game
+Replay game: eoisdk	Re-prompt			Re-prompt

@@ -1,0 +1,6 @@
+input			expected  output		actual output
+'easy'			'easy'				'easy'
+'MeDiuM'		'medium'			'medium'
+'HARD'			'hard'				'hard'
+'test'			Re-prompt			Re-prompt
+''			Re-prompt			Re-prompt
